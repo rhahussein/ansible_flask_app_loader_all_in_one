@@ -3,11 +3,6 @@
   hosts: load_balancers
   gather_facts: false 
   become: true
-
-  vars:
-    load_balancer_packages:
-      - haproxy
-
   tags:
     - load_balancers
 
